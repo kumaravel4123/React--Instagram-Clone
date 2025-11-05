@@ -1,0 +1,36 @@
+.m-3 {
+    font-family: sans-serif;
+}
+
+.logo-image {
+    height: 55px;
+    margin: 18px 0px 15px 10px;
+    width: 100px;
+    object-fit: contain;
+
+}
+
+.navs-h {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 18px;
+}
+
+.navs {
+
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.bi {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.navs-b {
+    font-size: large;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,44 @@
+{
+    "posts":[
+  {
+    "id": 1,
+    "username": "kumaravel_cs",
+    "profilePic": "https://i.pravatar.cc/150?img=12",
+    "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+    "caption": "Enjoying the sunny vibes ☀️ #chill #weekend",
+    "likes": 128,
+    "comments": [
+      { "id": 1, "username": "arun_07", "text": "Nice pic bro 🔥" },
+      { "id": 2, "username": "meena_art", "text": "Love this view!" }
+    ],
+    "postedAt": "2025-11-05T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "username": "arun_07",
+    "profilePic": "https://i.pravatar.cc/150?img=5",
+    "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "caption": "Workout grind never stops 💪 #fitness #goals",
+    "likes": 235,
+    "comments": [
+      { "id": 1, "username": "kumaravel_cs", "text": "Motivation 🔥🔥" }
+    ],
+    "postedAt": "2025-11-04T17:45:00Z"
+  },
+  {
+    "id": 3,
+    "username": "meena_art",
+    "profilePic": "https://i.pravatar.cc/150?img=47",
+    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "caption": "My latest digital artwork 🎨 #art #creative",
+    "likes": 310,
+    "comments": [
+      { "id": 1, "username": "arun_07", "text": "That’s amazing 👏" },
+      { "id": 2, "username": "artlover", "text": "So talented!" }
+    ],
+    "postedAt": "2025-11-03T12:20:00Z"
+  }
+]
+}
+
+
