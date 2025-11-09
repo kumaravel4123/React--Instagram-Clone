@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import "./Suggesstions.css";
-import "./Suggesstions.js"
 
 function Suggesstions() {
 

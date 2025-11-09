@@ -1,4 +1,24 @@
 .stories{
-    height: 120px;
-    background-color: aquamarine;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
+
+.story-dp{    
+    height: 90px;
+}
+
+.gradient-border{
+
+    height: 95px;
+    width: 95px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00);
+}
+
+

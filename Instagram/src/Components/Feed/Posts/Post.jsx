@@ -20,8 +20,8 @@ function Post() {
               { posts.map((post)=>(
                 <div key={post.id}>
                       <div className='d-flex  my-3'>
-                        <img className='dp rounded-circle' src={post.profilePic} alt="" />
-                        <h4>{post.username}</h4>
+                        <img className='dp rounded-circle mx-2' src={post.profilePic} alt="" />
+                        <h6 style={{margin:"8px 0px 0px 3px"}}>{post.username}</h6>
                       </div>
                       <div className='img d-flex justify-content-center'>
                       <img className='image ' src={post.imageUrl} alt="" />
