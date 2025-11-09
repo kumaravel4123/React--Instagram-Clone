@@ -38,6 +38,39 @@
     ],
     "postedAt": "2025-11-03T12:20:00Z"
   }
+],
+"profile": {
+  "id": 1,
+    "username": "kumaravel_cs",
+    "profilePic": "https://i.pravatar.cc/150?img=12"
+},
+"suggesstions": [
+  {
+    "id": 1,
+    "username": "kumaravel_cs",
+    "profilePic": "https://i.pravatar.cc/150?img=12"
+  },
+  {
+    "id": 2,
+    "username": "arun_07",
+    "profilePic": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 3,
+    "username": "meena_art",
+    "profilePic": "https://i.pravatar.cc/150?img=47"
+  },
+  {
+    "id": 4,
+    "username": "meena",
+    "profilePic": "https://i.pravatar.cc/150?img=47"
+  },
+  {
+    "id": 5,
+    "username": "_art",
+    "profilePic": "https://i.pravatar.cc/150?img=47"
+  }
+
 ]
 }
 

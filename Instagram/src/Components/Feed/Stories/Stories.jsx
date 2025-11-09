@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Stories.css"
 
 function Stories() {
   return (
-    <div className=''>Stories</div>
+    <div className='stories'>Stories</div>
   )
 }
 

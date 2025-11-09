@@ -4,7 +4,7 @@ import "./Sidebar.css";
 function Sidebar() {
     return (
         <>
-            <div className="m-3">
+            <div className="m-3 position-fixed">
                 <div className='d-flex flex-column'>
                     <img className='logo-image ' src="images\instagram-text.png" alt="" />
                     <div className='navs-h' ><i className="bi bi-house-door-fill"></i> Home</div>

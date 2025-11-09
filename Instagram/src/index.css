@@ -2,12 +2,18 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  background-color: rgb(215, 214, 214);
 }
 
 .w-20{
   width: 16%;
 }
 
+.feed{
+  width: 55%;
+
+}
+
 .w-30{
-  width: 34%;
+  width: 29%;
 }
