@@ -1,97 +1,334 @@
 {
-    "posts":[
-  {
-    "id": 1,
-    "username": "kumaravel_cs",
-    "profilePic": "https://i.pravatar.cc/150?img=12",
-    "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
-    "caption": "Enjoying the sunny vibes ☀️ #chill #weekend",
-    "likes": 128,
-    "comments": [
-      { "id": 1, "username": "arun_07", "text": "Nice pic bro 🔥" },
-      { "id": 2, "username": "meena_art", "text": "Love this view!" }
-    ],
-    "postedAt": "2025-11-05T08:30:00Z"
-  },
-  {
-    "id": 2,
-    "username": "arun_07",
-    "profilePic": "https://i.pravatar.cc/150?img=5",
-    "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
-    "caption": "Workout grind never stops 💪 #fitness #goals",
-    "likes": 235,
-    "comments": [
-      { "id": 1, "username": "kumaravel_cs", "text": "Motivation 🔥🔥" }
-    ],
-    "postedAt": "2025-11-04T17:45:00Z"
-  },
-  {
-    "id": 3,
-    "username": "meena_art",
-    "profilePic": "https://i.pravatar.cc/150?img=47",
-    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
-    "caption": "My latest digital artwork 🎨 #art #creative",
-    "likes": 310,
-    "comments": [
-      { "id": 1, "username": "arun_07", "text": "That’s amazing 👏" },
-      { "id": 2, "username": "artlover", "text": "So talented!" }
-    ],
-    "postedAt": "2025-11-03T12:20:00Z"
-  }
-],
-"profile": {
-  "id": 1,
-    "username": "kumaravel_cs",
-    "profilePic": "https://i.pravatar.cc/150?img=12"
-},
-"suggesstions": [
-  {
-    "id": 1,
-    "username": "kumaravel_cs",
-    "profilePic": "https://i.pravatar.cc/150?img=12"
-  },
-  {
-    "id": 2,
-    "username": "arun_07",
-    "profilePic": "https://i.pravatar.cc/150?img=5"
-  },
-  {
-    "id": 3,
-    "username": "meena_art",
-    "profilePic": "https://i.pravatar.cc/150?img=47"
-  },
-  {
-    "id": 4,
-    "username": "meena",
-    "profilePic": "https://i.pravatar.cc/150?img=47"
-  },
-  {
-    "id": 5,
-    "username": "_art",
-    "profilePic": "https://i.pravatar.cc/150?img=47"
-  }
-
-],
-"stories":[
-  {
-    "id": 1,
-    "username": "kumaravel_cs",
-    "profilePic": "https://i.pravatar.cc/150?img=12",
-    "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
+  "posts": [
+    {
+      "id": 1,
+      "username": "kumaravel_cs",
+      "profilePic": "https://i.pravatar.cc/150?img=12",
+      "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+      "caption": "Enjoying the sunny vibes ☀️ #chill #weekend",
+      "likes": 128,
+      "comments": [
+        {
+          "id": 1,
+          "username": "arun_07",
+          "text": "Nice pic bro 🔥"
+        },
+        {
+          "id": 2,
+          "username": "meena_art",
+          "text": "Love this view!"
+        }
+      ],
+      "postedAt": "2025-11-05T08:30:00Z"
     },
-  {
-    "id": 2,
-    "username": "arun_07",
-    "profilePic": "https://i.pravatar.cc/150?img=5",
-    "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+    {
+      "id": 2,
+      "username": "arun_07",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+      "caption": "Workout grind never stops 💪 #fitness #goals",
+      "likes": 235,
+      "comments": [
+        {
+          "id": 1,
+          "username": "kumaravel_cs",
+          "text": "Motivation 🔥🔥"
+        }
+      ],
+      "postedAt": "2025-11-04T17:45:00Z"
+    },
+    {
+      "id": 3,
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=47",
+      "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "caption": "My latest digital artwork 🎨 #art #creative",
+      "likes": 310,
+      "comments": [
+        {
+          "id": 1,
+          "username": "arun_07",
+          "text": "That’s amazing 👏"
+        },
+        {
+          "id": 2,
+          "username": "artlover",
+          "text": "So talented!"
+        }
+      ],
+      "postedAt": "2025-11-03T12:20:00Z"
+    },
+    {
+      "id": "4",
+      "username": "kumaravel_cs",
+      "profilePic": "https://i.pravatar.cc/150?img=12",
+      "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+      "caption": "Enjoying the sunny vibes ☀️ #chill #weekend",
+      "likes": 128,
+      "comments": [
+        {
+          "id": 1,
+          "username": "arun_07",
+          "text": "Nice pic bro 🔥"
+        },
+        {
+          "id": 2,
+          "username": "meena_art",
+          "text": "Love this view!"
+        }
+      ],
+      "postedAt": "2025-11-05T08:30:00Z"
+    },
+    {
+      "id": "5",
+      "username": "arun_07",
+      "profilePic": "https://i.pravatar.cc/150?img=22",
+      "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce",
+      "caption": "Late night coding sessions 👨‍💻☕",
+      "likes": 210,
+      "comments": [
+        {
+          "id": 1,
+          "username": "kumaravel_cs",
+          "text": "That’s the grind! 🔥"
+        },
+        {
+          "id": 2,
+          "username": "priya_designs",
+          "text": "Keep hustling 💪"
+        }
+      ],
+      "postedAt": "2025-11-06T21:15:00Z"
+    },
+    {
+      "id": "6",
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=45",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      "caption": "My latest digital painting 🎨✨ #artlover",
+      "likes": 345,
+      "comments": [
+        {
+          "id": 1,
+          "username": "arun_07",
+          "text": "Wow this is amazing 😍"
+        },
+        {
+          "id": 2,
+          "username": "kumaravel_cs",
+          "text": "Incredible work 👏"
+        }
+      ],
+      "postedAt": "2025-11-07T14:50:00Z"
+    },
+    {
+      "id": "7",
+      "username": "priya_designs",
+      "profilePic": "https://i.pravatar.cc/150?img=37",
+      "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "caption": "New UI design drop 💻 #uxdesign #creativity",
+      "likes": 189,
+      "comments": [
+        {
+          "id": 1,
+          "username": "meena_art",
+          "text": "Clean and modern 💜"
+        },
+        {
+          "id": 2,
+          "username": "kumaravel_cs",
+          "text": "Looks professional 👌"
+        }
+      ],
+      "postedAt": "2025-11-08T10:00:00Z"
+    },
+    {
+      "id": "8",
+      "username": "tech_guy",
+      "profilePic": "https://i.pravatar.cc/150?img=29",
+      "imageUrl": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      "caption": "Trying out React + Django integration today 🚀",
+      "likes": 156,
+      "comments": [
+        {
+          "id": 1,
+          "username": "kumaravel_cs",
+          "text": "That combo is fire 🔥"
+        },
+        {
+          "id": 2,
+          "username": "arun_07",
+          "text": "Share your repo bro 😎"
+        }
+      ],
+      "postedAt": "2025-11-09T18:40:00Z"
+    },
+    {
+      "id": "9",
+      "username": "vicky_dev",
+      "profilePic": "https://i.pravatar.cc/150?img=33",
+      "imageUrl": "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+      "caption": "Finally deployed my first fullstack project! 🚀 #Python #React #Milestone",
+      "likes": 276,
+      "comments": [
+        {
+          "id": 1,
+          "username": "kumaravel_cs",
+          "text": "Congrats bro! 🎉"
+        },
+        {
+          "id": 2,
+          "username": "tech_guy",
+          "text": "Great job, keep shipping 🔥"
+        },
+        {
+          "id": 3,
+          "username": "meena_art",
+          "text": "So proud of you 👏"
+        }
+      ],
+      "postedAt": "2025-11-10T09:25:00Z"
+    },
+    {
+      "id": "10",
+      "username": "sneha_photography",
+      "profilePic": "https://i.pravatar.cc/150?img=47",
+      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "caption": "Golden hour magic 🌅✨ #naturephotography #sunsetlover",
+      "likes": 392,
+      "comments": [
+        {
+          "id": 1,
+          "username": "meena_art",
+          "text": "This lighting is perfect 😍"
+        },
+        {
+          "id": 2,
+          "username": "arun_07",
+          "text": "Wallpaper material 🔥"
+        },
+        {
+          "id": 3,
+          "username": "kumaravel_cs",
+          "text": "Wow! You captured it so well 📸"
+        }
+      ],
+      "postedAt": "2025-11-10T17:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "kumaravel_cs",
+    "profilePic": "https://i.pravatar.cc/150?img=12"
   },
-  {
-    "id": 3,
-    "username": "meena_art",
-    "profilePic": "https://i.pravatar.cc/150?img=47",
-    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
-  }
-]
+  "suggesstions": [
+    {
+      "id": 1,
+      "username": "kumaravel_cs",
+      "profilePic": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 2,
+      "username": "arun_07",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 3,
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": 4,
+      "username": "meena",
+      "profilePic": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": 5,
+      "username": "_art",
+      "profilePic": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": "6",
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=45"
+    },
+    {
+       "id": "7",
+      "username": "priya_designs",
+      "profilePic": "https://i.pravatar.cc/150?img=37"
+    },
+    {
+      "id": "8",
+      "username": "tech_guy",
+      "profilePic": "https://i.pravatar.cc/150?img=29"
+    },
+    {
+      "id": "9",
+      "username": "vicky_dev",
+      "profilePic": "https://i.pravatar.cc/150?img=33"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "username": "kumaravel_cs",
+      "profilePic": "https://i.pravatar.cc/150?img=12",
+      "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
+    },
+    {
+      "id": 2,
+      "username": "arun_07",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+    },
+    {
+      "id": 3,
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=47",
+      "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+    },
+    {
+      "id": "4",
+      "username": "kumaravel_",
+      "profilePic": "https://i.pravatar.cc/150?img=12",
+      "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
+    },
+    {
+      "id": "5",
+      "username": "arun_07",
+      "profilePic": "https://i.pravatar.cc/150?img=22",
+      "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+    },
+    {
+      "id": "6",
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=45",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+    },
+    {
+      "id": "7",
+      "username": "priya_designs",
+      "profilePic": "https://i.pravatar.cc/150?img=37",
+      "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+    },
+    {
+      "id": "8",
+      "username": "tech_guy",
+      "profilePic": "https://i.pravatar.cc/150?img=29",
+      "imageUrl": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+    },
+    {
+      "id": "9",
+      "username": "vicky_dev",
+      "profilePic": "https://i.pravatar.cc/150?img=33",
+      "imageUrl": "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+      "caption": "Finally deployed my first fullstack project! 🚀 #Python #React #Milestone"
+    },
+    {
+      "id": "10",
+      "username": "sneha_photography",
+      "profilePic": "https://i.pravatar.cc/150?img=47",
+      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    }
+  ]
 }
-
-
