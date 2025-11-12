@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "username": "kumaravel_cs",
       "profilePic": "https://i.pravatar.cc/150?img=12",
       "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
@@ -22,7 +22,7 @@
       "postedAt": "2025-11-05T08:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "arun_07",
       "profilePic": "https://i.pravatar.cc/150?img=5",
       "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
@@ -38,7 +38,7 @@
       "postedAt": "2025-11-04T17:45:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "meena_art",
       "profilePic": "https://i.pravatar.cc/150?img=47",
       "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
@@ -218,32 +218,33 @@
   ],
   "profile": {
     "id": 1,
-    "username": "kumaravel_cs",
-    "profilePic": "https://i.pravatar.cc/150?img=12"
+    "username": "kumaravel",
+    "profilePic": "https://i.pravatar.cc/150?img=12",
+    "profile_pic": "https://i.pravatar.cc/150?img=1"
   },
   "suggesstions": [
     {
-      "id": 1,
+      "id": "1",
       "username": "kumaravel_cs",
       "profilePic": "https://i.pravatar.cc/150?img=12"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "arun_07",
       "profilePic": "https://i.pravatar.cc/150?img=5"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "meena_art",
       "profilePic": "https://i.pravatar.cc/150?img=47"
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "meena",
       "profilePic": "https://i.pravatar.cc/150?img=47"
     },
     {
-      "id": 5,
+      "id": "5",
       "username": "_art",
       "profilePic": "https://i.pravatar.cc/150?img=47"
     },
@@ -253,7 +254,7 @@
       "profilePic": "https://i.pravatar.cc/150?img=45"
     },
     {
-       "id": "7",
+      "id": "7",
       "username": "priya_designs",
       "profilePic": "https://i.pravatar.cc/150?img=37"
     },
@@ -270,19 +271,19 @@
   ],
   "stories": [
     {
-      "id": 1,
+      "id": "1",
       "username": "kumaravel_cs",
       "profilePic": "https://i.pravatar.cc/150?img=12",
       "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "arun_07",
       "profilePic": "https://i.pravatar.cc/150?img=5",
       "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "meena_art",
       "profilePic": "https://i.pravatar.cc/150?img=47",
       "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
@@ -329,6 +330,43 @@
       "username": "sneha_photography",
       "profilePic": "https://i.pravatar.cc/150?img=47",
       "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    }
+  ],
+  "followers": [
+    {
+      "id": "2",
+      "username": "arun_07",
+      "profilePic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "3",
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": "4",
+      "username": "meena",
+      "profilePic": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": "5",
+      "username": "_art",
+      "profilePic": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": "6",
+      "username": "meena_art",
+      "profilePic": "https://i.pravatar.cc/150?img=45"
+    },
+    {
+      "id": "7",
+      "username": "priya_designs",
+      "profilePic": "https://i.pravatar.cc/150?img=37"
+    },
+    {
+      "id": "8",
+      "username": "tech_guy",
+      "profilePic": "https://i.pravatar.cc/150?img=29"
     }
   ]
 }

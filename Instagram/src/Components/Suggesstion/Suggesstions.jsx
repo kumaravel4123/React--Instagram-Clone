@@ -21,10 +21,16 @@ function Suggesstions() {
         }
     };
 
+    // const handleFollow = async (id, username) => {
+    //     axios.post("http://localhost:3000/followers",{"id":id, "username":username})
+    //     .then(alert("Followed"))
+    //     .catch( err => console.log(err))
+    // }
+
     // For whole state follow btn
 
     //     const handleFollowToggle = (id) => {
-    //     setSuggesstions(prev =>
+     //     setSuggesstions(prev =>
     //       prev.map(user =>
     //         user.id === id
     //           ? { ...user, isFollowing: !user.isFollowing } // toggle follow state
