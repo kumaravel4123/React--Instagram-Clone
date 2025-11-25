@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "./Stories.css"
 import { useNavigate } from 'react-router-dom';
+import data from '../../../assets/js/data';
+
 
 
 
@@ -13,10 +15,7 @@ function Stories() {
   let tot = 0;
 
   useEffect(() => {
-    fetch("http://localhost:3000/stories")
-      .then(data => data.json())
-      .then(data => setStories(data))
-      .catch(err => console.log(err))
+    setStories(data.stories);
   },[])
 
   

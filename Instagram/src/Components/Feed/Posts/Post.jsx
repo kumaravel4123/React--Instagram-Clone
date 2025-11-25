@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "./Post.css";
+import data from '../../../assets/js/data';
+
 
 function Post() {
 
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/posts")
-    .then((data) => data.json())
-      .then(data => setPosts(data))
-      .catch(err => console.log(err))
+    setPosts(data.posts);
   },[]);
 
   return (

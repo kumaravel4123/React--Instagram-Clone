@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Suggesstions.css";
+import data from '../../assets/js/data';
 
 function Suggesstions() {
 
@@ -43,15 +44,8 @@ function Suggesstions() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/profile  ")
-            .then(data => data.json())
-            .then(data => setProfile(data))
-            .catch(err => console.log(err))
-
-        fetch("http://localhost:3000/suggesstions ")
-            .then(data => data.json())
-            .then(data => setSuggesstions(data))
-            .catch(err => console.log(err))
+        setProfile(data.profile);
+        setSuggesstions(data.suggesstions);
 
 
 
