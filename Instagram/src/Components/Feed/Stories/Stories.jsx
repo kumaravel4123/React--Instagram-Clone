@@ -2,14 +2,11 @@ import React, { useEffect, useState } from 'react'
 import "./Stories.css"
 import { useNavigate } from 'react-router-dom';
 import data from '../../../assets/js/data';
-
-
-
+import Navbar from '../../Navbar/Navbar';
 
 function Stories() {
 
   const navigate = useNavigate();
-
   const [stories, setStories] = useState([]);
 
   let tot = 0;
@@ -18,28 +15,36 @@ function Stories() {
     setStories(data.stories);
   },[])
 
-  
-
   return (
-    <div className='stories d-flex'>
+
+    <>
+    <div className='navbar-ins'> <Navbar/> </div>
+    <div className="stories-container">
       <div className='d-none'>
-        {tot=stories.length}
+        {tot = stories.length}
       </div>
-      {stories.length > 0 ? (
-        stories.map((story) => (
-            <div key={story.id} className='' onClick={()=>{navigate(`stories/${story.id}/${tot}`)}}>
+
+      <div className="stories-scroll">
+        {stories.length > 0 ? (
+          stories.map((story) => (
+            <div key={story.id} className='story-item' 
+              onClick={() => navigate(`stories/${story.id}/${tot}`)}
+            >
               <div className="gradient-border mx-1">
-                <img src={story.profilePic} alt="" className='story-dp rounded-circle' />
+                <img src={story.profilePic} alt="profile_pic" className='story-dp rounded-circle' />
               </div>
-              <small className='text text-truncate' style={{width:"50px"}}>{story.username}</small>
+              <small className='text text-truncate' style={{width:"50px"}}>
+                {story.username}
+              </small>
             </div>
           ))
-        
+        ) : (
+          <p>Loading...</p>
+        )}
+      </div>
 
-      ) : (
-        <p>Loading</p>
-      )}
     </div>
+    </>
   )
 }
 

@@ -216,12 +216,14 @@
       "postedAt": "2025-11-10T17:45:00Z"
     }
   ],
+
   "profile": {
     "id": 1,
     "username": "kumaravel",
     "profilePic": "https://i.pravatar.cc/150?img=12",
     "profile_pic": "https://i.pravatar.cc/150?img=1"
   },
+
   "suggesstions": [
     {
       "id": "1",
@@ -269,6 +271,7 @@
       "profilePic": "https://i.pravatar.cc/150?img=33"
     }
   ],
+  
   "stories": [
     {
       "id": "1",

@@ -1,22 +1,39 @@
-.posts{
-   
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.dp{
-   
+.dp {
+
     height: 40px;
 }
 
-.img{
+.img {
 
-     background-color: rgb(127, 126, 126);
+    background-color: rgb(127, 126, 126);
 }
 
-.image{
+.image {
     height: 400px;
     width: fit-content;
 }
 
-.bi{
+.bi {
     margin: 5px;
+}
+
+@media screen and (max-width:1024px) {
+    .posts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .image {
+        height: 300px;
+        width: fit-content;
+    }
 }

@@ -55,17 +55,17 @@ function Suggesstions() {
 
     return (
         <div>
-            <div className='suggesstions'>
+            <div className='suggesstions '>
                 {/* Profile */}
                 {profile ?
-                    <div className='d-flex  my-3'>
+                    <div className='d-flex  my-3 '>
                         <img className='dp rounded-circle' src={profile.profilePic} alt="" />
-                        <h4>{profile.username}</h4>
+                        <h6 className='mx-2 mt-2'>{profile.username}</h6>
                         <small className='ms-auto me-4 text-info'>Switch</small>
                     </div>
                     : <p>Loading</p>
                 }
-                <div className='d-flex'>
+                <div className='d-flex '>
                     <h6>Suggested for you</h6>
                     <b className='ms-auto me-3'>See All</b>
                 </div>
@@ -78,7 +78,7 @@ function Suggesstions() {
                                     <div className="my-3" key={suggesstion.id}>
                                         <div className="d-flex">
                                             <img src={suggesstion.profilePic} alt="" className="dp rounded-circle" />
-                                            <h5 className='mx-2 mt-2'>{suggesstion.username}</h5>
+                                            <h6 className='mx-2 mt-2'>{suggesstion.username}</h6>
                                             <button onClick={handleClick} className='ms-auto btn btn-primary px-3'>Follow</button>
                                         </div>
 

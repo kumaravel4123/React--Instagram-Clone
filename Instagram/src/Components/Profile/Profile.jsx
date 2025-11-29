@@ -32,7 +32,7 @@ function Profile() {
             {profile ? (
                 <div className='m-5'>
                     <img src={profile.profilePic} alt="profile_Pic" className='profile rounded-circle' />
-                    <h4>{profile.username}</h4>
+                    <h5>{profile.username}</h5>
 
                     <input
                         type="text"

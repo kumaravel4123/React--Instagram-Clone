@@ -239,14 +239,14 @@ const data = {
   stories: [
     { id: "1", username: "kumaravel_cs", profilePic: "https://i.pravatar.cc/150?img=12", imageUrl: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" },
     { id: "2", username: "arun_07", profilePic: "https://i.pravatar.cc/150?img=5", imageUrl: "https://images.unsplash.com/photo-1517841905240-472988babdf9" },
-    { id: "3", username: "meena_art", profilePic: "https://i.pravatar.cc/150?img=47", imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba" },
+    { id: "3", username: "meena_art", profilePic: "https://i.pravatar.cc/150?img=47", imageUrl: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" },
     { id: "4", username: "kumaravel_", profilePic: "https://i.pravatar.cc/150?img=12", imageUrl: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" },
-    { id: "5", username: "arun_07", profilePic: "https://i.pravatar.cc/150?img=22", imageUrl: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce" },
-    { id: "6", username: "meena_art", profilePic: "https://i.pravatar.cc/150?img=45", imageUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f" },
-    { id: "7", username: "priya_designs", profilePic: "https://i.pravatar.cc/150?img=37", imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba" },
-    { id: "8", username: "tech_guy", profilePic: "https://i.pravatar.cc/150?img=29", imageUrl: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" },
-    { id: "9", username: "vicky_dev", profilePic: "https://i.pravatar.cc/150?img=33", imageUrl: "https://images.unsplash.com/photo-1531297484001-80022131f5a1", caption: "Finally deployed my first fullstack project! 🚀 #Python #React #Milestone" },
-    { id: "10", username: "sneha_photography", profilePic: "https://i.pravatar.cc/150?img=47", imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" }
+    { id: "5", username: "arun_07", profilePic: "https://i.pravatar.cc/150?img=22", imageUrl: "https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b" },
+    { id: "6", username: "meena_art", profilePic: "https://i.pravatar.cc/150?img=45", imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330" },
+    { id: "7", username: "priya_designs", profilePic: "https://i.pravatar.cc/150?img=37", imageUrl: "https://images.unsplash.com/photo-1517841905240-472988babdf9" },
+    { id: "8", username: "tech_guy", profilePic: "https://i.pravatar.cc/150?img=29", imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" },
+    { id: "9", username: "vicky_dev", profilePic: "https://i.pravatar.cc/150?img=33", imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e" },
+    { id: "10", username: "sneha_photography", profilePic: "https://i.pravatar.cc/150?img=47", imageUrl: "https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b" }
   ],
 
   followers: [

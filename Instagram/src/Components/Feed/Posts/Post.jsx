@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Post.css";
 import data from '../../../assets/js/data';
+import Footer from '../../Footer/Footer';
 
 
 function Post() {
@@ -12,8 +13,8 @@ function Post() {
   },[]);
 
   return (
-    
-      <div className='posts d-flex justify-content-center'>
+    <>
+      <div className='posts'>
         {posts.length > 0 ? (
           <div className=''>
               { posts.map((post)=>(
@@ -32,7 +33,7 @@ function Post() {
                       </div>
                       <div>
                         <strong> {post.likes} Likes </strong>
-                        <div>
+                        <div className='mb-5'>
                           {post.caption}
                         </div>
                         
@@ -45,7 +46,9 @@ function Post() {
         )
         }
       </div>
-    
+
+     <div> <Footer/> </div> 
+    </>
   )
 }
 
