@@ -35,13 +35,23 @@ function ViewStory() {
             <i className="bi bi-arrow-left-circle mx-3 fs-1"></i>
           </Link>
 
-          <img className='vh-100' src={story.imageUrl} alt="story-image" />
+          {/* Story Wrapper */}
+          <div className="story-wrapper">
+            <div className="story-header">
+              <img src={story.profilePic} className="story-header-pic" alt="" />
+              <span className="story-header-name">{story.username}</span>
+            </div>
+
+            <img className='story-img' src={story.imageUrl} alt="story-image" />
+          </div>
 
           <Link to={`/stories/${currentIndex + 2}/${tot}`}>
             <i className="bi bi-arrow-right-circle mx-3 fs-1"></i>
           </Link>
 
         </div>
+
+
       ) : (
         <div>Loading...</div>
       )}
