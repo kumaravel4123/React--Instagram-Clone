@@ -1,4 +1,4 @@
-.m-3 {
+div.sidebar {
     font-family: sans-serif;
 }
 
@@ -35,10 +35,21 @@
     margin-bottom: 5px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1150px) {
+    #morebar {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     .m-3 {
-    display: none;
-}
-    
+        display: none;
+    }
+
 }
